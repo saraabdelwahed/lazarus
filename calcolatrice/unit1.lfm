@@ -1,0 +1,50 @@
+object Form1: TForm1
+  Left = 257
+  Height = 240
+  Top = 140
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '3.6.0.0'
+  object Edit1: TEdit
+    Left = 24
+    Height = 23
+    Top = 35
+    Width = 80
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 216
+    Height = 23
+    Top = 35
+    Width = 80
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 120
+    Height = 23
+    Top = 136
+    Width = 75
+    TabOrder = 2
+    Text = 'tolale'
+  end
+  object ButtonPiu: TButton
+    Left = 120
+    Height = 25
+    Top = 35
+    Width = 75
+    Caption = '+'
+    TabOrder = 3
+    OnClick = ButtonPiuClick
+  end
+  object ButtonPer: TButton
+    Left = 120
+    Height = 25
+    Top = 88
+    Width = 75
+    Caption = 'x'
+    TabOrder = 4
+    OnClick = ButtonPerClick
+  end
+end
